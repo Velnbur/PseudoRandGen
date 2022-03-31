@@ -7,7 +7,8 @@ number generation method's, generate a big number of them (like 10^6
 or greater) and see rate of their appearing in different intervals 
 with diagram.
 For example, for linear coherent  method, picture will be something like this:
->[0.0; 0.1]      0.10    ##########  
+```
+[0.0; 0.1]      0.10    ##########  
 [0.1; 0.2]      0.10    ##########  
 [0.2; 0.3]      0.10    ##########  
 [0.3; 0.4]      0.10    ##########  
@@ -17,6 +18,7 @@ For example, for linear coherent  method, picture will be something like this:
 [0.7; 0.8]      0.10    ##########  
 [0.8; 0.9]      0.10    ##########  
 [0.9; 1.0]      0.10    #########  
+```
 
 ## Prerequisites
 
@@ -25,8 +27,11 @@ For example, for linear coherent  method, picture will be something like this:
 
 ## Build and usage
 Build:
-> make dirs && make build
+```shell
+$ make dirs && make build
+```
 
 Then in `lab/bin/` must appear a binary:
-
-> ./lab/bin/lab1
+```shell
+$ ./lab/bin/lab1
+```
